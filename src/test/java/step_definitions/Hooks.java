@@ -8,7 +8,6 @@ public class Hooks {
 
     @Before
     public void setUp() {
-        System.out.println(">>>>>>>>");
         Selenide.open("https://higi-qa-kiosk-app.azurewebsites.net/");
     }
 
