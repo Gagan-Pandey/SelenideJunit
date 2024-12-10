@@ -9,7 +9,7 @@ Feature: Authentication
     When user selects email login option
     Then user validates email entry screen
 
-  Scenario: Verify user can successfully with correct credentials
+  Scenario: Verify user can successfully login with correct credentials
     Given higi app is launched
     And user clicks on get started button
     And user clicks on already have an account link
