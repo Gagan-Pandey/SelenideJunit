@@ -6,6 +6,10 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class LoginPage {
 
+    public SelenideElement getWelcomeScreen(){
+        return $x("//*[@id='welcome-screen']");
+    }
+
     public SelenideElement getGetStartedButton(){
         return $x("//button[@id='go-to-home-screen-button']");
     }
